@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX">
+      <UniqueIdentifier>{a2ade35f-768c-4f15-8516-08c01090ec12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{aee82c79-caa2-4fb8-8ae9-039db567cb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX\Wrapper">
+      <UniqueIdentifier>{05d05c92-7b3a-469a-9308-7e2c61fe5362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX\Wrapper">
+      <UniqueIdentifier>{9da14be0-eb4e-4faf-8eb5-e1bc472f0bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\WIC">
+      <UniqueIdentifier>{8892cd4b-0f59-417b-ba3d-8970256b218c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\WIC\Wrapper">
+      <UniqueIdentifier>{7f245f0e-b7aa-4562-a2fc-eef3586f9164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\WIC">
+      <UniqueIdentifier>{c7337377-76fd-4bdc-825b-902bded4f9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\WIC\Wrapper">
+      <UniqueIdentifier>{9fc3dfed-2867-457e-8f67-ad6f591f9255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utl">
+      <UniqueIdentifier>{4f60a149-2c50-43c9-9c56-e2508ec4fd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Window">
+      <UniqueIdentifier>{a36cb9ad-6fcd-4e69-819e-eab8ee8d9ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Window">
+      <UniqueIdentifier>{c8b58142-a473-4526-a12f-3c94b540a7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utl">
+      <UniqueIdentifier>{f18f37e2-1a65-4819-8ff8-4302420607c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX\Shader">
+      <UniqueIdentifier>{733020aa-ae88-4ef4-9009-29ac9e2682cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="directX.h">
+      <Filter>ヘッダー ファイル\DirectX\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsImagingComponent.h">
+      <Filter>ヘッダー ファイル\WIC\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>ヘッダー ファイル\Utl</Filter>
+    </ClInclude>
+    <ClInclude Include="Uncopyable.h">
+      <Filter>ヘッダー ファイル\Utl</Filter>
+    </ClInclude>
+    <ClInclude Include="Wnd.h">
+      <Filter>ヘッダー ファイル\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenResolution.h">
+      <Filter>ヘッダー ファイル\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ReleaseIUnknown.h">
+      <Filter>ヘッダー ファイル\Utl</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsInfrastructure.h">
+      <Filter>ヘッダー ファイル\DirectX\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2D.h">
+      <Filter>ヘッダー ファイル\DirectX\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>ヘッダー ファイル\DirectX\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>ヘッダー ファイル\Utl</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル\Utl</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLevelDefine.h">
+      <Filter>ヘッダー ファイル\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFramework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateDeviceAndSwapChain.cpp">
+      <Filter>ソース ファイル\DirectX\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsImagingComponent.cpp">
+      <Filter>ソース ファイル\WIC\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Wnd.cpp">
+      <Filter>ソース ファイル\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ReleaseIUnknown.cpp">
+      <Filter>ソース ファイル\Utl</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsInfrastructure.cpp">
+      <Filter>ソース ファイル\DirectX\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2D.cpp">
+      <Filter>ソース ファイル\DirectX\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>ソース ファイル\DirectX\Wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="earth.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
